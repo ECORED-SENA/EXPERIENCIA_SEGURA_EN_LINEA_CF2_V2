@@ -7,7 +7,6 @@
         span 2
       h1 Huella digital
     
-
     .pb-5.pt-4
 
     .tarjeta.color-acento-contenido.position-relative.p-5.mb-5
@@ -37,7 +36,7 @@
                   span 2
               p.mb-0 El segundo está relacionado con la utilización de la huella dactilar en dispositivos de autenticación y verificación de identidad. 
 
-    h5.mb-4 Para ampliar la información, invitamos a ver el siguiente video.
+    h5.mb-4 Para ampliar la información, lo invitamos a consultar el siguiente video.
 
     figure.mb-5
       .video
@@ -83,9 +82,9 @@
     Separador
 
     #t2-1.titulo-segundo
-      h2 2.1 Fuentes de descarga segura de software
+      h2 2.1 Importancia de la huella digital
 
-    p Para efectos de este curso, se enfatizará en el estudio de la huella digital como el rastro que se construye al hacer uso de internet y de sus diferentes herramientas o dispositivos digitales.
+    p Para efectos de este curso, se enfatizará en el estudio de la huella digital como el rastro que se construye al hacer uso de Internet y de sus diferentes herramientas o dispositivos digitales.
       
     p.mb-5 
       b Es importante entender que dependiendo del uso que se hace de:
@@ -97,7 +96,7 @@
             .col-2
               img(src='@/assets/curso/t2-05.svg')
             .col
-              h5.mb-0 Las herramientas tecnológicas e internet
+              h5.mb-0 Las herramientas tecnológicas e Internet
 
         .tarjeta.color-gradient-b.p-3.mb-3
           .row.align-items-center
@@ -133,7 +132,7 @@
     p
       b Se va a ir construyendo una huella digital que contendrá los datos sobre todas las actividades antes planteadas.
 
-    p.mb-5 Cuando se realiza algún tipo de comentario o publicaciones en algunas plataformas tecnológicas como: 
+    p.mb-5 Igualmente, cuando se realiza algún tipo de comentario o publicaciones en algunas plataformas tecnológicas como:
 
     .cajon.color-secundario.p-5.mb-5
       ul.lista-ul.mb-0
@@ -191,10 +190,10 @@
     #t2-2.titulo-segundo
       h2 2.2 Identidad digital
 
-    p Como se ha mencionado, la huella digital permite con el tiempo y de acuerdo con las acciones, construir la <b>identidad digital</b>, que se trata de un <b>“yo”</b> en la red, que determina los datos que cada persona va dejando en la red a partir del consumo de productos y servicios, publicaciones. La identidad digital determina qué ven los demás usuarios en términos de uso de recursos tecnológicos en los que se reconocen los perfiles aunque se puede dar que en muchos casos la identidad digital obedezca a un seudónimo.
+    p Como se ha mencionado, la huella digital permite con el tiempo y de acuerdo con las acciones, construir la identidad digital, que se trata de un “yo” en la red, que determina los datos que cada persona va dejando en la red, a partir del consumo de productos, servicios y publicaciones. La identidad digital determina qué ven los demás usuarios en términos de uso de recursos tecnológicos, en los que se reconocen los perfiles, aunque se puede dar que en muchos casos la identidad digital obedezca a un seudónimo.
 
     p.mb-5
-      b Algunas de las amenazas que afectan la identidad digital, como parte de la utilización de internet y los recursos tecnológicos, son:
+      b Algunas de las amenazas que afectan la identidad digital, como parte de la utilización de Internet y los recursos tecnológicos, son:
 
     .row.align-items-end.justify-content-center
       .col-lg-6

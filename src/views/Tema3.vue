@@ -7,7 +7,7 @@
         span 3
       h1 Delitos informáticos
     
-    p.mb-5 Se definen como aquellos actos ilícitos en los que se usan las tecnologías de la información, como las computadoras, los programas informáticos, los medios electrónicos, internet, entre otros, como medio o como fin.
+    p.mb-5 Se definen como aquellos actos ilícitos en los que se usan las tecnologías de la información, como las computadoras, los programas informáticos, los medios electrónicos, Internet, entre otros, como medio o como fin.
 
     #t3-1.titulo-segundo
       h2 3.1 Legislación actual
@@ -17,22 +17,23 @@
     PasosAB.color-acento-contenido(tipo="n")
       div
         h3 Ley 527 de 1999:
-        p por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales, y se establecen las entidades de certificación y se dictan otras disposiciones.
+        p Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico, de las firmas digitales, se establecen las entidades de certificación y se dictan otras disposiciones.
       div
         h3 Ley 599 de 2000:
-        p el Código Penal Colombiano no habla explícitamente de delitos informáticos, sin embargo, algunos artículos protegen los bienes jurídicos de vulneraciones cometidas a través de la red informática.
+        p El Código Penal Colombiano no habla explícitamente de delitos informáticos, sin embargo, algunos artículos protegen los bienes jurídicos de vulneraciones cometidas a través de la red informática.
       div
         h3 Ley 603 de 2000:
-        p ley que ampara los derechos de autor, que protege la propiedad y producción intelectual.
+        p Ley que ampara los derechos de autor, que protege la propiedad y producción intelectual.
       div
         h3 Ley 679 de 2001: 
-        | entre otras cosas establece las normas atinentes para contrarrestar el abuso sexual de menores, a través de medios electrónicos.
+        | Entre otras cosas, establece las normas atinentes para contrarrestar el abuso sexual de menores, a través de medios electrónicos.
       div
         h3 Ley 1266 de 2008:
-        p ley de habeas data regula el manejo de la información contenida en bases de datos personales, en especial la financiera, crediticia, comercial, de servicios y la proveniente de terceros.
+        p Ley de Hábeas Data regula el manejo de la información contenida en bases de datos personales, en especial la financiera, crediticia, comercial, de servicios y la proveniente de terceros.
+
       div
         h3 Ley 1273 de 2009:
-        p establece nuevos tipos penales relacionados con delitos informáticos y la protección de la información y de los datos.
+        p Establece nuevos tipos penales relacionados con delitos informáticos y la protección de la información y de los datos.
 
     Separador
 
@@ -54,8 +55,8 @@
         p.mb-0 El que, sin orden judicial previa intercepte datos informáticos en su origen, destino o en el interior de un sistema informático, o las emisiones electromagnéticas provenientes de un sistema informático que los transporte incurrirá en pena de prisión de treinta y seis (36) a setenta y dos (72) meses.
       div(titulo="Artículo 269D - Daño Informático")
         p.mb-0 El que, sin estar facultado para ello, destruya, dañe, borre, deteriore, altere o suprima datos informáticos, o un sistema de tratamiento de información o sus partes o componentes lógicos, incurrirá en pena de prisión de cuarenta y ocho (48) a noventa y seis (96) meses y en multa de 100 a 1.000 salarios mínimos legales mensuales vigentes.
-      div(titulo="Artículo 269E - Uso de software malicioso")
-        p.mb-0 El que, sin estar facultado para ello, produzca, trafique, adquiera, distribuya, venda, envíe, introduzca o extraiga del territorio nacional software malicioso u otros programas de computación de efectos dañinos, incurrirá en pena de prisión de cuarenta y ocho (48) a noventa y seis (96) meses y en multa de 100 a 1.000 salarios mínimos legales mensuales vigentes.
+      div(titulo="Artículo 269E - Uso de <em>software</em> malicioso")
+        p.mb-0 El que, sin estar facultado para ello, produzca, trafique, adquiera, distribuya, venda, envíe, introduzca o extraiga del territorio nacional <em>software</em> malicioso u otros programas de computación de efectos dañinos, incurrirá en pena de prisión de cuarenta y ocho (48) a noventa y seis (96) meses y en multa de 100 a 1.000 salarios mínimos legales mensuales vigentes.
       div(titulo="Artículo 269F - Violación de datos personales")
         p.mb-0 El que, sin estar facultado para ello, con provecho propio o de un tercero, obtenga, compile, sustraiga, ofrezca, venda, intercambie, envíe, compre, intercepte, divulgue, modifique o emplee códigos personales, datos personales contenidos en ficheros, archivos, bases de datos o medios semejantes, incurrirá en pena de prisión de cuarenta y ocho (48) a noventa y seis (96) meses y en multa de 100 a 1000 salarios mínimos legales mensuales vigentes.
       div(titulo="Artículo 269G - Suplantación de sitios web para capturar datos personales")
@@ -147,7 +148,7 @@
                 b PEDRO 
                 | aprovechando su perfil, le entrega en una memoria USB dicha información, así mismo, le hace entrega de unas fotografías de la señora 
                 b SÁNCHEZ 
-                | que posteriormente son publicadas en internet. 
+                | que posteriormente son publicadas en Internet. 
             .col-6
               img.d-lg-none(src='@/assets/curso/t3-04.svg')
               img.d-none.d-lg-block(src='@/assets/curso/t3-04.svg'  style="margin-top: -90px; margin-bottom: -90px")

@@ -47,16 +47,18 @@
               p.mb-0 Obedecen más a políticas institucionales tendientes a la protección de los recursos tecnológicos corporativos, dentro de los cuales se integran todos los datos que deben protegerse por parte de los usuarios o empleados de las diferentes organizaciones en sus diferentes roles. 
 
     h3.text-center.mb-4 Gráficamente se puede explicar así:
-
-    .titulo-sexto.color-acento-botones
-      h5 Herramientas de protección
-
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 1.
+      span Herramientas de protección
     .row.justify-content-center.mb-5
-      .col-xxl-11
-        img(src='@/assets/curso/t1-03.svg')
+      .col-xl-11.m-auto.col-md-7
+        figure.d-none.d-lg-block
+          img(src='@/assets/curso/1.svg' alt="Imagen que presenta para qué son las herramientas de protección personales y empresariales.")
+        figure.d-lg-none
+          img(src='@/assets/curso/2.svg' alt="Imagen que presenta para qué son las herramientas de protección personales y empresariales.")
 
     .row.justify-content-center
-      .col-lg-6.mb-4.mb-lg-0
+      .col-lg-12.mb-4
         .tarjeta.color-gradient.h-100.p-5
           p.text-center.mb-4(style="min-height: 48px") Cada 
             b usuario 
@@ -103,7 +105,7 @@
 
 
 
-      .col-lg-6
+      .col-lg-12
         .tarjeta.color-gradient.h-100.p-5
           p.text-center.mb-4(style="min-height: 48px") Ahora, desde el punto de vista 
             b empresarial
@@ -279,7 +281,7 @@
         p.mb-0 Para la generación o creación de contraseñas seguras se recomienda la utilización de herramientas que permiten la generación de las contraseñas cumpliendo con todas las recomendaciones antes mencionadas; a continuación, se mencionan y se comparte el link de algunas de estas aplicaciones que pueden ser utilizadas, aunque es importante mencionar que algunas de ellas son pagas y otras de uso libre.
 
     p.mb-4
-      b En el caso puntual de los generadores de contraseñas, se aconseja el uso de cualquiera de los siguientes recursos gratuitos en línea:
+      b En el caso puntual de los generadores de contraseñas, se aconseja el uso de cualquiera de los siguientes recursos:
 
     .tabla-a.color-secundario.mb-4
       table
@@ -310,25 +312,18 @@
 
     h3.mb-4 Lastpass
 
-    p Ingresando al siguiente enlace 
-      a(href="https://www.lastpass.com/es/features/password-generator" target="_blank") https://www.lastpass.com/es/features/password-generator
-      | , se puede elegir qué nivel de seguridad y complejidad requiere la contraseña y se hace la generación de una contraseña segura.
-
-    img.mb-5(src='@/assets/curso/t1-23.jpg')
+    p En este sitio se puede elegir qué nivel de seguridad y complejidad requiere la contraseña y se hace la generación de una contraseña segura.
 
     h3.mb-4 Roboform
 
-    p Esta alternativa puede ser utilizada para generar contraseñas seguras 
-      a(href="https://www.roboform.com/es/password-generator" target="_blank") https://www.roboform.com/es/password-generator
-
-    img(src='@/assets/curso/t1-24.jpg')
+    p Esta alternativa puede ser utilizada para generar contraseñas seguras.
 
     Separador
 
     #t1-4.titulo-segundo
-      h2 1.4 Fuentes de descarga segura de software
+      h2 1.4 Fuentes de descarga segura de #[em software]
 
-    p.mb-5 En la cotidianidad, se utiliza internet y otras herramientas tecnológicas a diario y es común encontrar algunas soluciones de aplicaciones y/o servicios que pueden potencializar el uso de las TIC (Tecnologías de la Información y Comunicación), eso hace que se haga obligatorio prestar especial atención a los sitios desde los cuales se hacen las descargas de cualquier tipo de aplicación. Lo primero, al momento de tratar de descargar una aplicación o archivo, es reconocer si la descarga se hace desde un sitio seguro y para ello se presentan las siguientes recomendaciones las que cada usuario de las redes, puede aplicar a conveniencia.
+    p.mb-5 En la cotidianidad, se utiliza Internet y otras herramientas tecnológicas y es común encontrar algunas soluciones de aplicaciones y/o servicios que pueden potencializar el uso de las TIC (Tecnologías de la Información y Comunicación), eso hace que sea obligatorio prestar especial atención a los sitios desde los cuales se hacen las descargas de cualquier tipo de aplicación. Lo primero, al momento de tratar de descargar una aplicación o archivo, es reconocer si la descarga se hace desde un sitio seguro y para ello se presentan las siguientes recomendaciones, las cuales cada usuario de las redes, puede aplicar a conveniencia.
 
     .row
       .col-lg-6
@@ -345,7 +340,7 @@
         .tarjeta.color-gradient-b.d-flex.px-4.py-5.mb-4
           .icono-tarjeta.me-4
             img(src='@/assets/curso/flecha-hacia-abajo.svg')
-          p.mb-0 Si se desea comprar alguna aplicación utilizar las tiendas oficiales; por ejemplo en el tema de las aplicaciones móviles recurrir a las apps store según el dispositivo utilizado y siempre validar los comentarios y recomendaciones de otros usuarios.
+          p.mb-0 Si se desea comprar alguna aplicación, utilizar las tiendas oficiales; por ejemplo, en el tema de las aplicaciones móviles recurrir a las #[em apps store] según el dispositivo utilizado y siempre validar los comentarios y recomendaciones de otros usuarios.
 
         .tarjeta.color-gradient-b.d-flex.px-4.py-5.mb-4
           .icono-tarjeta.me-4
@@ -362,7 +357,7 @@
         .tarjeta.color-gradient-b.d-flex.px-4.py-5.mb-4
           .icono-tarjeta.me-4
             img(src='@/assets/curso/flecha-hacia-abajo.svg')
-          p.mb-0 No acceder a descarga de apps a través de <em>links</em> dispuestos en páginas donde se promocionan estas aplicaciones o <em>software</em>, normalmente este tipo de <em>links</em> llevará a un sitio predeterminado o previamente configurado para que se descarguen las apps con algún tipo de infección con <em>malware</em> o virus.
+          p.mb-0 No acceder a descarga de apps a través de #[em links] dispuestos en páginas donde se promocionan estas aplicaciones o #[em software], normalmente este tipo de #[em links] llevarán a un sitio predeterminado o previamente configurado para que se descarguen las #[em apps] con algún tipo de infección con #[em malware] o virus.
 
         .tarjeta.color-gradient-b.d-flex.px-4.py-5.mb-4
           .icono-tarjeta.me-4
@@ -422,7 +417,7 @@
           img(src='@/assets/curso/t1-26.svg')
         .col-lg-9
           .bloque-texto-a__texto.px-4.py-5
-            p Para este propósito, el Estado colombiano desarrollo la Ley Estatutaria 1581 de 2012 que constituye el marco general de la protección de los datos personales en Colombia, entre otras cosas, esta Ley manifiesta el derecho que tienen todas las personas a autorizar el uso de la información personal almacenada en bases de datos y archivos administradas por personas naturales o jurídicas, públicas o privadas, así como su posterior actualización, modificación y rectificación.
+            p Para este propósito, el Estado colombiano desarrolló la Ley Estatutaria 1581 de 2012, que constituye el marco general de la protección de los datos personales en Colombia. Entre otras cosas, esta Ley manifiesta el derecho que tienen todas las personas a autorizar el uso de la información personal almacenada en bases de datos y archivos administradas por personas naturales o jurídicas, públicas o privadas, así como su posterior actualización, modificación y rectificación.
 
     p 
       b Para recordar: 
@@ -439,7 +434,7 @@
             | , lo que significa que antes de solicitar datos personales, debe ser expresada e informada la solicitud de tratamiento de los datos personales.
         li 
           i.fas.fa-check
-          | Determinar de manera clara para que serán usados los datos que buscan ser obtenidos.
+          | Determinar de manera clara para qué serán usados los datos que buscan ser obtenidos.
         li 
           i.fas.fa-check
           | Especificar claramente los derechos y los medios a través de los cuales puede el usuario ejercerlos.
@@ -467,7 +462,7 @@
     Separador
 
     #t1-6.titulo-segundo
-      h2 1.6 Compras por internet
+      h2 1.6 Compras por Internet
 
     .row.justify-content-center.align-items-center.mb-5    
       .col-md.mb-4.mb-md-0
@@ -478,7 +473,7 @@
 
     .row.justify-content-center.mb-5
       .col-10.text-center
-        h3 En la actualidad, gran parte de las transacciones diarias se realizan por internet desde dispositivos móviles o electrónicos. Algunas de las transacciones que se pueden hacer en línea son: 
+        h3 En la actualidad, gran parte de las transacciones diarias se realizan por Internet desde dispositivos móviles o electrónicos. Algunas de las transacciones que se pueden hacer en línea son:
 
 
     .row.align-items-center.mb-5
@@ -506,31 +501,31 @@
 
             div
               .tarjeta.color-secundario--claro.d-inline-block.p-4.mb-3
-                h5.mb-0 Servicios de domicilios de comidas, bebidas, productos de la canasta familiar, entre otras… 
+                h5.mb-0 Servicio de domicilio de comidas, bebidas, productos de la canasta familiar, entre otros.
 
           .col-6.col-sm-5
             img(src='@/assets/curso/t1-29.svg')
 
-        p Cuando se realizan compras por internet, es importante tener presente las siguientes buenas prácticas o consejos, a saber:
+        p Cuando se realizan compras por Internet, es importante tener presente las siguientes buenas prácticas o consejos:
 
 
     .row.justify-content-center
       .col-lg-10
         AcordionA(tipo="a" clase-tarjeta="tarjeta color-acento-contenido")
           div(titulo="Saber exactamente qué tipo de producto o servicio se requiere")
-            p.mb-0 Al momento de hacer la compra se debe tener claridad frente a las características del producto o servicio que se desea adquirir, debido a la gran oferta existente no siempre el mejor precio corresponde a productos más confiables. 
+            p.mb-0 Al momento de hacer la compra, se debe tener claridad frente a las características del producto o servicio que se desea adquirir, porque debido a la gran oferta que existe, no siempre el mejor precio corresponde a productos más confiables.
           div(titulo="Revisar y comparar las referencias y comentarios")
             p.mb-0 Estos son hechos por otros compradores del mismo producto, para validar la calidad y cumplimiento y seriedad del proveedor.
           div(titulo="Navegar e interactuar con las plataformas o sitios donde se hará la compra")
             p.mb-0 Se recomienda hacer una navegación detallada dentro de las plataformas para identificar sus contenidos, periodos de actualización, comentarios o algo que permita identificar si efectivamente es un sitio válido, confiable y seguro.
           div(titulo="Validación de la seguridad básica de la plataforma o sitio de comercio")
-            p.mb-0 Todo sitio serio debe contar con unas medidas de seguridad técnicas que son básicas y requeridas, por ejemplo se debe validar que cuente con un certificado digital que garantice que la información, datos o transacciones se hagan protegidas y cifradas, para esto se valida que la URL cuente con un protocolo seguro como lo es <b>https://</b>, si se cuenta con este requisito básico en la URL previo al nombre, debe mostrar un candado lo cual indica que el sitio es seguro. 
+            p.mb-0 Todo sitio serio debe contar con unas medidas de seguridad técnicas que son básicas y requeridas, por ejemplo, se debe validar que cuente con un certificado digital que garantice que la información, datos o transacciones se hagan protegidas y cifradas, para esto se valida que la URL cuente con un protocolo seguro como lo es #[strong https://], si se cuenta con este requisito básico en la URL previo al nombre, debe mostrar un candado, lo cual indica que el sitio es seguro.
           div(titulo="Pagos seguros")
-            p.mb-0 El momento de realizar el pago por el producto o servicio adquirido se debe realizar la validación de que se cuenta con una pasarela de pagos reconocida y certificada, entre otras, las siguientes son pasarelas de pago certificadas y aprobadas en el país: PayU, Mercado Pago, En Línea Pagos, Pagos Inteligentes, Opacó, Interpagos, Pago Digital, Recaudo Express, Mercado Libre, PSE, Paypal, entre otros.
+            p.mb-0 El momento de realizar el pago por el producto o servicio adquirido, se debe realizar la validación que se cuenta con una pasarela de pagos reconocida y certificada. Las siguientes son pasarelas de pago certificadas y aprobadas en el país: PayU, Mercado Pago, En Línea Pagos, Pagos Inteligentes, Opacó, Interpagos, Pago Digital, Recaudo Express, Mercado Libre, PSE, Paypal.
           div(titulo="Política de privacidad y devoluciones")
-            p.mb-0 En toda plataforma de comercio se debe contar una clara política de privacidad y devoluciones y de fácil acceso que facilite al usuario en un momento determinado saber cuál es el proceso para una devolución que debe hacer y tener claridad frente al manejo de sus datos personales que sean autorizados.
+            p.mb-0 En toda plataforma de comercio se debe contar una clara política de privacidad, devoluciones y de fácil acceso, que facilite al usuario en un momento determinado saber cuál es el proceso para una devolución, qué debe hacer y tener claridad frente al manejo de sus datos personales.
           div(titulo="Acceso a canales de soporte y servicio al cliente")
-            p.mb-0 Una página o sitio confiable donde se pueden realizar compras online debe contar con las estrategias y canales de atención como redes sociales, página web, teléfonos, direcciones, esto permitirá determinar si el sitio es seguro, operativo y confiable.
+            p.mb-0 Una página o sitio confiable donde se pueden realizar compras #[em online], debe contar con las estrategias y canales de atención como redes sociales, página web, teléfonos y direcciones, esto permitirá determinar si el sitio es seguro, operativo y confiable.
           div(titulo="Términos y condiciones")
             p.mb-0 El sitio o plataforma donde se realicen las compras debe contar con espacio claramente determinado con los términos y condiciones donde se especifique claramente las condiciones para los pagos, políticas de devoluciones y reembolsos, envíos, costos de transporte, tiempos de entrega, entre otros, de esta manera se evitará tener inconvenientes y experiencias no favorables con la compra.
     
