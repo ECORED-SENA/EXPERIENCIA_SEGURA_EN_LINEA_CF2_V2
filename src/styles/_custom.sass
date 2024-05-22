@@ -17,3 +17,105 @@
 
   100%
     transform: translateY(0px)
+
+.titulo-principal__numero
+  background-color: $color-acento-botones
+  span, i
+    color: $color-sistema-texto 
+.titulo-segundo
+  &:after
+    border-left-color: $color-acento-botones
+.overflow-img
+  margin-top: -130px
+  margin-bottom: -100px
+  @media (max-width: $bp-max-md)
+    margin-top: 0
+    margin-bottom: 0
+
+.pregunta
+  width: 90px
+  position: absolute
+  top: -55px
+
+.tarjeta.color-secundario
+  *
+    color: $color-sistema-texto
+
+.color-gradient
+  background-image: linear-gradient(to right bottom, #81ffe1, #6af6f6, #6deaff, #82dcff, #9dceff)
+.color-gradient-b
+  background-image: linear-gradient(to right bottom, #e2f0ff, #dcf4ff, #d8f8ff, #d7fcfc, #d9fff6)
+
+.numero-container
+  width: 85px
+  height: 85px
+  background-color: $white
+  border-radius: 50%
+  display: flex
+  align-items: center
+  justify-content: center
+  span
+    font-size: $h1-font-size
+    font-weight: $base-black-font-weight
+
+.slider-small
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    top: 25%
+  .slyder-a__bullets
+    bottom: -40px
+
+.acordion
+  .color-acento-contenido
+    .acordion__accion__btn--a i, .acordion__accion__btn--b i
+      color: $color-acento-contenido
+
+.color-secundario
+  .tabs-a__tab
+    background-color: $color-acento-contenido
+    color: $white
+
+.icono-tarjeta
+  min-width: 50px
+
+.bloque-texto-a.color-primario
+  background-color: #B2FFED
+
+.cajon.color-secundario
+  background-color: #DDFFF7
+  ul li i
+    color: $color-secundario
+
+.color-secundario--claro
+  background-color: #B2FFED
+
+.color-secundario--claro-2
+  background-color: #DDFFF7
+
+.huellas
+  margin-top: -100px
+
+.pasos-a__circle
+  img
+    width: 80%
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-60%)
+
+.slyder-a.con-fondo
+  background-color: #B1FFEC
+  .slyder-a__bullets
+    bottom: 30px
+    @media (max-width: $bp-max-lg)
+      bottom: 15px
+
+.s-contenedor
+  padding: 70px 90px
+  
+  @media (max-width: $bp-max-lg)
+    padding: 40px
+
+
+.s-contenedor
+  b
+    font-size: $h4-font-size
