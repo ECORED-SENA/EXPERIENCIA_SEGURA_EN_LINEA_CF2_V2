@@ -172,13 +172,13 @@
               p Según la Ley 1273 del 2009 los artículos que hacen parte del presente caso son:
 
               ul.lista-ul.mb-0
-                li 
+                li.d-flex
                   i.lista-ul__vineta
                   h4.mb-0(style="color: #004080") Artículo 269A.
-                li 
+                li.d-flex
                   i.lista-ul__vineta
                   h4.mb-0(style="color: #004080") Artículo 269F.
-                li 
+                li.d-flex
                   i.lista-ul__vineta
                   h4.mb-0(style="color: #004080") Artículo 269H.
 
@@ -235,17 +235,17 @@
             b artículo 269H
             |, habla de las agravaciones que tienen cada una de sus acciones tanto de PEDRO como de ULISES, las cuales son:
           ul.lista-ul
-            li 
+            li.d-flex
               i.fas.fa-check
               p.mb-0
                 b Tercera: 
                 | aprovechando la confianza depositada por el poseedor de la información o por quien tuviere un vínculo contractual con este.
-            li 
+            li.d-flex
               i.fas.fa-check
               p.mb-0
                 b Cuarta: 
                 | revelando o dando a conocer el contenido de la información en perjuicio de otro.
-            li 
+            li.d-flex
               i.fas.fa-check
               p.mb-0
                 b Octava: 
