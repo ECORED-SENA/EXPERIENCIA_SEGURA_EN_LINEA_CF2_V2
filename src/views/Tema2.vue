@@ -69,13 +69,13 @@
       img.huellas.mb-4.d-lg-none(src='@/assets/curso/t2-03.svg')
 
       ul.lista-ul.mb-0
-        li 
+        li.d-flex
           i.lista-ul__vineta
           h4.mb-0(style="color: #004080") El nombre.
-        li 
+        li.d-flex
           i.lista-ul__vineta
           h4.mb-0(style="color: #004080") La identificación.
-        li 
+        li.d-flex
           i.lista-ul__vineta
           h4.mb-0(style="color: #004080") La fecha de nacimiento, entre otros. 
 

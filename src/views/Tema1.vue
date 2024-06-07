@@ -125,7 +125,7 @@
                   img(src='@/assets/curso/t1-11.svg')
             
               .tarjeta.tarjeta--blanca.p-4
-                p.mb-0 Determinar corporativamente qué tipo de aplicaciones y cuáles pueden ser utilizadas de manera corporativa tanto pagas como libres.
+                p.mb-0 Determinar corporativamente qué tipo de aplicaciones y cuáles pueden ser utilizadas de manera corporativa, tanto pagas como libres.
 
             div
               .row.justify-content-center.mb-4
@@ -305,7 +305,7 @@
           tr
             td Keeper: es una muy buena alternativa que, aunque no tiene un muy buen diseño, tiene aplicaciones para escritorio, móvil y navegadores.
             td
-              a(href="https://www.keepersecurity.com/es_ES/pricing.html?t=b" target="_blank") https://www.keepersecurity.com/es_ES/pricing.html?t=b 
+              a(href="https://www.keepersecurity.com/es_ES/" target="_blank") https://www.keepersecurity.com/es_ES/ 
 
     p.mb-5 Se propone utilizar un generador de contraseñas en el que, eligiendo los niveles de complejidad, puedan generarse las contraseñas. 
       b A continuación, se mencionan algunos de los sitios que pueden ser utilizados para esta labor:
@@ -427,20 +427,20 @@
 
     .cajon.color-secundario.p-5.mb-5
       ul.lista-ul.mb-0
-        li 
+        li.d-flex
           i.fas.fa-check
           p.mb-0 Tener un 
             b consentimiento informado
             | , lo que significa que antes de solicitar datos personales, debe ser expresada e informada la solicitud de tratamiento de los datos personales.
-        li 
+        li.d-flex
           i.fas.fa-check
-          | Determinar de manera clara para qué serán usados los datos que buscan ser obtenidos.
-        li 
+          div Determinar de manera clara para qué serán usados los datos que buscan ser obtenidos.
+        li.d-flex
           i.fas.fa-check
-          | Especificar claramente los derechos y los medios a través de los cuales puede el usuario ejercerlos.
-        li.mb-0
+          div Especificar claramente los derechos y los medios a través de los cuales puede el usuario ejercerlos.
+        li.mb-0.d-flex
           i.fas.fa-check
-          | Respetar las condiciones de seguridad y privacidad de la información, sin obviar el trámite de consultas, solicitudes y reclamos por parte de los sujetos que se puedan ver afectados por la obtención de sus datos personales sin previa autorización.
+          div Respetar las condiciones de seguridad y privacidad de la información, sin obviar el trámite de consultas, solicitudes y reclamos por parte de los sujetos que se puedan ver afectados por la obtención de sus datos personales sin previa autorización.
 
     p.mb-5 Es importante mencionar que las empresas que reciben los datos a través de registros realizados por terceros, tienen que cumplir con los mismos criterios de solicitud de autorización, pero adicionalmente se deben priorizar las siguientes actividades.
 
