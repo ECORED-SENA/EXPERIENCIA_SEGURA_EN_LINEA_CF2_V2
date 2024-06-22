@@ -40,7 +40,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/ZEOgJDBWkXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/9ybTScJdHOw?si=C601F0-DqUkP1dpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p Cuando se utiliza internet y los diferentes medios y dispositivos digitales, se comparte información sobre gustos, preferencias, datos personales, incluso la posición geográfica de las personas, y toda esta información puede ser usada para construir una imagen del perfil de la persona con actividades e intereses. Es importante pensar, entonces, en quién puede ver esa información, incluso si se tiene una buena configuración de privacidad, se puede copiar el contenido y transmitirlo para el mundo en general.
 

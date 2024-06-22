@@ -175,7 +175,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/jqL1RwFft-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/fs_3DUH8QAE?si=56JILxTJmM3upra3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     h5.mb-5 También podemos encontrar otras diferencias, como son:
 
@@ -238,7 +238,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/1OhN3B1ALro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/MKGPDHf5VM0?si=djuXJvUDc3dZuIAK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .tarjeta.color-acento-botones.p-5.mb-5
       p.mb-0 Se deben tener siempre presente las siguientes recomendaciones, sean en el plano personal o corporativo, para evitar una mala práctica en la gestión de contraseñas.
