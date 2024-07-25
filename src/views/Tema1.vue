@@ -59,54 +59,56 @@
 
     .row.justify-content-center
       .col-lg-12.mb-4
-        .tarjeta.color-gradient.h-100.p-5
-          p.text-center.mb-4(style="min-height: 48px") Cada 
-            b usuario 
-            | debe seguir siempre estas recomendaciones y buenas prácticas:
+        .tarjeta.color-gradient.h-100
+          .p-4.p-lg-5
+            p.text-center.mb-4(style="min-height: 48px") Cada 
+              b usuario 
+              | debe seguir siempre estas recomendaciones y buenas prácticas:
 
-          SlyderA.slider-small.mb-3
-            div
-              .row.justify-content-center.mb-4
-                .col-md-6
-                  img(src='@/assets/curso/t1-04.svg')
-            
-              .tarjeta.tarjeta--blanca.p-4
-                p.mb-0 Instalar y mantener un antivirus, ya sea de pago o gratuito.
-            div
-              .row.justify-content-center.mb-4
-                .col-md-6
-                  img(src='@/assets/curso/t1-06.svg')
-            
-              .tarjeta.tarjeta--blanca.p-4
-                p.mb-0 No instalar aplicaciones desconocidas o de las cuales no se tenga la plena certeza de su origen.
-
-            div
-              .row.justify-content-center.mb-4
-                .col-md-6
-                  img(src='@/assets/curso/t1-07.svg')
-            
-              .tarjeta.tarjeta--blanca.p-4
-                p.mb-0 Si se reciben correos de remitentes desconocidos y que además contienen datos adjuntos, se deben de eliminar y de ninguna manera abrir dichos archivos.
-            div
-              .row.justify-content-center.mb-4
-                .col-md-6
-                  img(src='@/assets/curso/t1-08.svg')
-            
-              .tarjeta.tarjeta--blanca.p-4
-                p.mb-0 Actualizar periódicamente el sistema operativo del dispositivo utilizado.
-
-            div
-              .row.justify-content-center.mb-4
-                .col-md-6
-                  img(src='@/assets/curso/t1-09.svg')
-            
-              .tarjeta.tarjeta--blanca.p-4
-                p.mb-0 Habilitar un <em>firewall</em> del sistema operativo que limite la ejecución de algunas aplicaciones o servicios no necesarios o desconocidos.
-
-
+            SlyderA.slider-small.mb-3
+              div
+                .row.justify-content-center.mb-4
+                  .col-md-6
+                    img(src='@/assets/curso/t1-04.svg')
+                .row.justify-content-center
+                  .col-11
+                    .tarjeta.tarjeta--blanca.p-4
+                      p.mb-0 Instalar y mantener un antivirus, ya sea de pago o gratuito.
+              div
+                .row.justify-content-center.mb-4
+                  .col-md-6
+                    img(src='@/assets/curso/t1-06.svg')
+                .row.justify-content-center
+                  .col-11
+                    .tarjeta.tarjeta--blanca.p-4
+                      p.mb-0 No instalar aplicaciones desconocidas o de las cuales no se tenga la plena certeza de su origen.
+              div
+                .row.justify-content-center.mb-4
+                  .col-md-6
+                    img(src='@/assets/curso/t1-07.svg')
+                .row.justify-content-center
+                  .col-11
+                    .tarjeta.tarjeta--blanca.p-4
+                      p.mb-0 Si se reciben correos de remitentes desconocidos y que además contienen datos adjuntos, se deben de eliminar y de ninguna manera abrir dichos archivos.
+              div
+                .row.justify-content-center.mb-4
+                  .col-md-6
+                    img(src='@/assets/curso/t1-08.svg')
+                .row.justify-content-center
+                  .col-11
+                    .tarjeta.tarjeta--blanca.p-4
+                      p.mb-0 Actualizar periódicamente el sistema operativo del dispositivo utilizado.
+              div
+                .row.justify-content-center.mb-4
+                  .col-md-6
+                    img(src='@/assets/curso/t1-09.svg')
+                .row.justify-content-center
+                  .col-11
+                    .tarjeta.tarjeta--blanca.p-4
+                      p.mb-0 Habilitar un <em>firewall</em> del sistema operativo que limite la ejecución de algunas aplicaciones o servicios no necesarios o desconocidos.
 
       .col-lg-12
-        .tarjeta.color-gradient.h-100.p-5
+        .tarjeta.color-gradient.h-100.p-4.p-lg-5
           p.text-center.mb-4(style="min-height: 48px") Ahora, desde el punto de vista 
             b empresarial
             | , las recomendaciones son:
@@ -116,55 +118,59 @@
               .row.justify-content-center.mb-4
                 .col-md-6
                   img(src='@/assets/curso/t1-10.svg')
-            
-              .tarjeta.tarjeta--blanca.p-4
-                p.mb-0 Restringir los permisos administrativos para el acceso a los recursos tecnológicos solo a personal autorizado.
+              .row.justify-content-center
+                .col-11
+                  .tarjeta.tarjeta--blanca.p-4
+                    p.mb-0 Restringir los permisos administrativos para el acceso a los recursos tecnológicos solo a personal autorizado.
             div
               .row.justify-content-center.mb-4
                 .col-md-6
                   img(src='@/assets/curso/t1-11.svg')
-            
-              .tarjeta.tarjeta--blanca.p-4
-                p.mb-0 Determinar corporativamente qué tipo de aplicaciones y cuáles pueden ser utilizadas de manera corporativa, tanto pagas como libres.
+              .row.justify-content-center
+                .col-11
+                  .tarjeta.tarjeta--blanca.p-4
+                    p.mb-0 Determinar corporativamente qué tipo de aplicaciones y cuáles pueden ser utilizadas de manera corporativa, tanto pagas como libres.
 
             div
               .row.justify-content-center.mb-4
                 .col-md-6
                   img(src='@/assets/curso/t1-12.svg')
-            
-              .tarjeta.tarjeta--blanca.p-4
-                p.mb-0 Mantener actualizados los sistemas operativos, pero de manera controlada a partir de una política de actualizaciones.
+              .row.justify-content-center
+                .col-11
+                  .tarjeta.tarjeta--blanca.p-4
+                    p.mb-0 Mantener actualizados los sistemas operativos, pero de manera controlada a partir de una política de actualizaciones.
             div
               .row.justify-content-center.mb-4
                 .col-md-6
                   img(src='@/assets/curso/t1-13.svg')
-            
-              .tarjeta.tarjeta--blanca.p-4
-                p.mb-0 Utilizar siempre un antivirus, en lo posible de tipo corporativo y de pago.
-
+              .row.justify-content-center
+                .col-11
+                  .tarjeta.tarjeta--blanca.p-4
+                    p.mb-0 Utilizar siempre un antivirus, en lo posible de tipo corporativo y de pago.
             div
               .row.justify-content-center.mb-4
                 .col-md-6
                   img(src='@/assets/curso/t1-14.svg')
-            
-              .tarjeta.tarjeta--blanca.p-4
-                p.mb-0 Controlar y restringir el acceso a las redes inalámbricas.
-
+              .row.justify-content-center
+                .col-11
+                  .tarjeta.tarjeta--blanca.p-4
+                    p.mb-0 Controlar y restringir el acceso a las redes inalámbricas.
             div
               .row.justify-content-center.mb-4
                 .col-md-6
                   img(src='@/assets/curso/t1-15.svg')
-            
-              .tarjeta.tarjeta--blanca.p-4
-                p.mb-0 No utilizar redes sociales o herramientas personales para la ejecución de actividades corporativas.
-
+              .row.justify-content-center
+                .col-11
+                  .tarjeta.tarjeta--blanca.p-4
+                    p.mb-0 No utilizar redes sociales o herramientas personales para la ejecución de actividades corporativas.
             div
               .row.justify-content-center.mb-4
                 .col-md-6
                   img(src='@/assets/curso/t1-16.svg')
-            
-              .tarjeta.tarjeta--blanca.p-4
-                p.mb-0 Realizar copias de seguridad permanentes de la información sensible o crítica que es usada para el desarrollo de sus funciones dentro de la organización.
+              .row.justify-content-center
+                .col-11
+                  .tarjeta.tarjeta--blanca.p-4
+                    p.mb-0 Realizar copias de seguridad permanentes de la información sensible o crítica que es usada para el desarrollo de sus funciones dentro de la organización.
 
     Separador
 
@@ -352,7 +358,7 @@
         .tarjeta.color-gradient-b.d-flex.px-4.py-5.mb-4
           .icono-tarjeta.me-4
             img(src='@/assets/curso/flecha-hacia-abajo.svg')
-          p.mb-0 No utilizar <em>software</em> falso o pirata, normalmente se tiende a utilizar <em>software</em> de manera ilegal sin licencia lo que obliga a utilizar los llamados <em>cracks</em> de activación, estos normalmente vienen infectados con algún tipo de virus lo que ocasionará que los equipos donde se instale el <em>software</em> de manera ilegal se infecten y queden expuestos a robo de información.
+          p.mb-0 No utilizar <em>software</em> falso o pirata, normalmente se tiende a utilizar <em>software</em> de manera ilegal sin licencia lo que obliga a utilizar los llamados <em>cracks</em> de activación, estos normalmente vienen infectados con algún tipo de virus, lo que ocasionará que los equipos donde se instale el <em>software</em> de manera ilegal se infecten y queden expuestos a robo de información.
 
         .tarjeta.color-gradient-b.d-flex.px-4.py-5.mb-4
           .icono-tarjeta.me-4
@@ -417,7 +423,7 @@
           img(src='@/assets/curso/t1-26.svg')
         .col-lg-9
           .bloque-texto-a__texto.px-4.py-5
-            p Para este propósito, el Estado colombiano desarrolló la Ley Estatutaria 1581 de 2012, que constituye el marco general de la protección de los datos personales en Colombia. Entre otras cosas, esta Ley manifiesta el derecho que tienen todas las personas a autorizar el uso de la información personal almacenada en bases de datos y archivos administradas por personas naturales o jurídicas, públicas o privadas, así como su posterior actualización, modificación y rectificación.
+            p Para este propósito, el Estado colombiano desarrolló la Ley Estatutaria 1581 de 2012, que constituye el marco general de la protección de los datos personales en Colombia. Entre otras cosas, esta Ley manifiesta el derecho que tienen todas las personas a autorizar el uso de la información personal almacenada en bases de datos y archivos administrados por personas naturales o jurídicas, públicas o privadas, así como su posterior actualización, modificación y rectificación.
 
     p 
       b Para recordar: 
@@ -528,9 +534,6 @@
             p.mb-0 Una página o sitio confiable donde se pueden realizar compras #[em online], debe contar con las estrategias y canales de atención como redes sociales, página web, teléfonos y direcciones, esto permitirá determinar si el sitio es seguro, operativo y confiable.
           div(titulo="Términos y condiciones")
             p.mb-0 El sitio o plataforma donde se realicen las compras debe contar con espacio claramente determinado con los términos y condiciones donde se especifique claramente las condiciones para los pagos, políticas de devoluciones y reembolsos, envíos, costos de transporte, tiempos de entrega, entre otros, de esta manera se evitará tener inconvenientes y experiencias no favorables con la compra.
-    
-      
-          
       
 </template>
 
